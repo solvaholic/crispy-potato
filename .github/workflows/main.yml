@@ -70,7 +70,6 @@ jobs:
         run: |
           _files="$(ls \
             ${REPO_TEMPLATE}/script/* \
-            ${REPO_TEMPLATE}/.github/workflows/main.yml \
             ${REPO_TEMPLATE}/.git_hooks_pre-commit
             )"
           for _file in ${_files}; do
